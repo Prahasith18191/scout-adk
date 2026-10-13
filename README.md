@@ -75,7 +75,9 @@ adk deploy cloud_run --project=$GOOGLE_CLOUD_PROJECT --region=us-central1 \
   --service_name=scout --with_ui ./scout -- --allow-unauthenticated
 ```
 
-**Live demo:** **https://scout-puxir3jrda-uc.a.run.app** (open `/dev-ui/`, pick `scout`, watch the agents work)
+**🌐 Live custom UI:** **https://scout-ui-puxir3jrda-uc.a.run.app** — the Scout console: watch the agents talk in real time, the orchestration flow graph light up, per-agent token/hit stats, plus Agents (with prompts), Google Services and Tools pages.
+
+**Agent API (raw ADK):** https://scout-puxir3jrda-uc.a.run.app — open `/dev-ui/` for the built-in ADK Playground.
 
 ---
 
