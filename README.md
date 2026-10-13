@@ -75,7 +75,7 @@ adk deploy cloud_run --project=$GOOGLE_CLOUD_PROJECT --region=us-central1 \
   --service_name=scout --with_ui ./scout -- --allow-unauthenticated
 ```
 
-**Live demo:** _<!-- CLOUD_RUN_URL -->_
+**Live demo:** **https://scout-puxir3jrda-uc.a.run.app** (open `/dev-ui/`, pick `scout`, watch the agents work)
 
 ---
 
