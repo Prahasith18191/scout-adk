@@ -1,0 +1,17 @@
+# Secrets — never commit
+.env
+secrets/
+*service-account*.json
+*-f547b11b90fe.json
+*.key
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / build / OS
+node_modules/
+dist/
+.DS_Store
